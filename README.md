@@ -14,6 +14,6 @@ CMD ["npm", "run", "dev"]
 
 After that, and with the service up and running, we proceeded to create the pipeline in GitHub Actions, resulting in the following:
 
-![alt text](image-3.png)
+![alt text](image-4.png)
 
 However, it is also important to remember to create secrets within the GitHub Actions environment. Then, the pipeline is uploaded and its status is validated, as well as whether or not the image was published within Docker Hub. 
